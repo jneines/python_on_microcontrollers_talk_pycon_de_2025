@@ -1,0 +1,32 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 6c8f30b3-f1ae-41b3-812c-0daf3529771e
+  title: Using Python to enter the world of Microcontrollers
+  subject: Talk
+  venue: 
+    title: PyCON.de and PyData 2025
+    url: https://2025.pycon.de
+    location: Darmstadt
+  authors:
+    - name: Jens Nie
+      #affiliations:
+      #  - Rosenxt GmbH
+      email: jneines@web.de
+      github: https://github.com/jneines
+  license: CC-BY-4.0
+  keywords: microcontroller, micropython, esp8266, esp32, rp2040, rp2350
+  # description:
+  github: https://github.com/jneines/python_on_microcontrollers_talk_pycon_de_2025
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  options:
+    hide_search: true
+    logo_text: Python on Microcontrollers
+    #hide_toc: true
+    #hide_outline: true
+  #  style: my_style.css
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
